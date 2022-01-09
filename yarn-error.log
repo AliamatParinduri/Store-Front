@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\AliamatParinduri\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vue-toastification@next
+
+PATH: 
+  C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files\Java\jdk1.8.0_181\bin;C:\composer;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\AliamatParinduri\AppData\Local\Microsoft\WindowsApps;C:\Users\AliamatParinduri\AppData\Roaming\Composer\vendor\bin;C:\Flutter\flutter\bin;C:\Users\AliamatParinduri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AliamatParinduri\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\PraktekBelajar\(!) Latihan Create Projek\MEVN\Store Of Produk\FrontEnd\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "watch": "npx tailwindcss -i ./src/app.css -o ./dist/output.css --watch",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "axios": "^0.24.0",
+      "vue": "^3.2.25",
+      "vue-router": "^4.0.12",
+      "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^2.0.0",
+      "autoprefixer": "^10.4.1",
+      "postcss": "^8.4.5",
+      "tailwindcss": "^3.0.11",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
